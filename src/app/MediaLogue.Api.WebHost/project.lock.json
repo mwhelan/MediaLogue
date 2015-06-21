@@ -7,7 +7,9 @@
       "Microsoft.AspNet.Server.WebListener >= 1.0.0-beta4",
       "Microsoft.AspNet.WebApi.WebHost >= 5.2.3"
     ],
-    "DNX,Version=v4.5.1": [],
+    "DNX,Version=v4.5.1": [
+      "MediaLogue.Api.Core >= 1.0.0-*"
+    ],
     "DNXCore,Version=v5.0": []
   },
   "libraries": {

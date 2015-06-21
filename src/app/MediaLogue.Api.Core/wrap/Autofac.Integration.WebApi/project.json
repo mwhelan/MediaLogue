@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0-*",
+  "frameworks": {
+    "net452": {
+      "bin": {
+        "assembly": "../../../../packages/Autofac.WebApi2.3.4.0/lib/net45/Autofac.Integration.WebApi.dll"
+      }
+    }
+  }
+}

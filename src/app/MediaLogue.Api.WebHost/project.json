@@ -13,7 +13,11 @@
     },
 
     "frameworks": {
-        "dnx451": { },
+        "dnx451": {
+            "dependencies": {
+                "MediaLogue.Api.Core": "1.0.0-*"
+            }
+        },
         "dnxcore50": { }
     },
 

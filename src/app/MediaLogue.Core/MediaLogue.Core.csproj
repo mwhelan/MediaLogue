@@ -40,6 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Domain\Contracts\ITvdbGateway.cs" />
+    <Compile Include="Domain\Contracts\ITvdbMapper.cs" />
     <Compile Include="Domain\Model\Actor.cs" />
     <Compile Include="Domain\Model\Banner.cs" />
     <Compile Include="Domain\Model\Entity.cs" />
@@ -49,11 +51,10 @@
     <Compile Include="Domain\Model\Frequency.cs" />
     <Compile Include="Domain\Model\Language.cs" />
     <Compile Include="Domain\Model\Status.cs" />
+    <Compile Include="Domain\Services\TvdbService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Domain\Services\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
