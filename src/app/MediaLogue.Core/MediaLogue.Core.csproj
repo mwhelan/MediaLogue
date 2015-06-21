@@ -40,10 +40,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Domain\Model\Actor.cs" />
+    <Compile Include="Domain\Model\Banner.cs" />
+    <Compile Include="Domain\Model\Entity.cs" />
+    <Compile Include="Domain\Model\Show.cs" />
+    <Compile Include="Domain\Model\ContentRating.cs" />
+    <Compile Include="Domain\Model\Episode.cs" />
+    <Compile Include="Domain\Model\Frequency.cs" />
+    <Compile Include="Domain\Model\Language.cs" />
+    <Compile Include="Domain\Model\Status.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Domain\Model\" />
     <Folder Include="Domain\Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
