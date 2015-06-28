@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.22823.1
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "app", "app", "{410A87B1-4C1E-491B-AEEE-B61063DD258E}"
 EndProject
@@ -21,7 +21,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Specs.Component.MediaLogue"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Specs.System.MediaLogue", "specs\Specs.System.MediaLogue\Specs.System.MediaLogue.csproj", "{F31AB5AB-754B-4A4D-924E-F1A7599F1F45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaLogue.Core", "app\MediaLogue.Core\MediaLogue.Core.csproj", "{DBD749D5-4A7C-41FB-BF8C-648BF2992FA8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaLogue.Domain", "app\MediaLogue.Core\MediaLogue.Domain.csproj", "{DBD749D5-4A7C-41FB-BF8C-648BF2992FA8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaLogue.Infrastructure", "app\MediaLogue.Infrastructure\MediaLogue.Infrastructure.csproj", "{57B2109C-080D-4E54-8165-40C2AC3DFF7C}"
 EndProject
@@ -29,7 +29,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaLogue.Application", "a
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaLogue.Api.Core", "app\MediaLogue.Api.Core\MediaLogue.Api.Core.csproj", "{B89A10AB-7EF7-49F6-AB6E-2ACD95364CD9}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MediaLogue.Api.WebHost", "app\MediaLogue.Api.WebHost\MediaLogue.Api.WebHost.xproj", "{F144C285-1E7A-444D-95EA-2D333FFDD296}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaLogue.Api.WebHost", "app\MediaLogue.Api.WebHost\MediaLogue.Api.WebHost.csproj", "{FF789BA5-2CB7-4EE0-BD00-A9BC4C4652CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Specs.Library.MediaLogue", "specs\Specs.Library.MediaLogue\Specs.Library.MediaLogue.csproj", "{7E462620-A8D2-425A-A1CE-078B6D742FB2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 Shared Library", "04 Shared Library", "{92F24827-E477-4D86-AE2A-4CA015FFF41E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,10 +73,14 @@ Global
 		{B89A10AB-7EF7-49F6-AB6E-2ACD95364CD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B89A10AB-7EF7-49F6-AB6E-2ACD95364CD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B89A10AB-7EF7-49F6-AB6E-2ACD95364CD9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F144C285-1E7A-444D-95EA-2D333FFDD296}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F144C285-1E7A-444D-95EA-2D333FFDD296}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F144C285-1E7A-444D-95EA-2D333FFDD296}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F144C285-1E7A-444D-95EA-2D333FFDD296}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF789BA5-2CB7-4EE0-BD00-A9BC4C4652CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF789BA5-2CB7-4EE0-BD00-A9BC4C4652CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF789BA5-2CB7-4EE0-BD00-A9BC4C4652CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF789BA5-2CB7-4EE0-BD00-A9BC4C4652CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E462620-A8D2-425A-A1CE-078B6D742FB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E462620-A8D2-425A-A1CE-078B6D742FB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E462620-A8D2-425A-A1CE-078B6D742FB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E462620-A8D2-425A-A1CE-078B6D742FB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -89,6 +97,8 @@ Global
 		{57B2109C-080D-4E54-8165-40C2AC3DFF7C} = {410A87B1-4C1E-491B-AEEE-B61063DD258E}
 		{4286450D-567C-49E0-8FBC-73318769E275} = {410A87B1-4C1E-491B-AEEE-B61063DD258E}
 		{B89A10AB-7EF7-49F6-AB6E-2ACD95364CD9} = {410A87B1-4C1E-491B-AEEE-B61063DD258E}
-		{F144C285-1E7A-444D-95EA-2D333FFDD296} = {410A87B1-4C1E-491B-AEEE-B61063DD258E}
+		{FF789BA5-2CB7-4EE0-BD00-A9BC4C4652CE} = {410A87B1-4C1E-491B-AEEE-B61063DD258E}
+		{7E462620-A8D2-425A-A1CE-078B6D742FB2} = {92F24827-E477-4D86-AE2A-4CA015FFF41E}
+		{92F24827-E477-4D86-AE2A-4CA015FFF41E} = {D5411240-02AB-48E2-96A2-0EE8C138AF04}
 	EndGlobalSection
 EndGlobal

@@ -10,7 +10,7 @@ namespace MediaLogue.Infrastructure.Data.Tvdb
         {
             if (url == null)
             {
-                throw new ArgumentNullException(nameof(url));
+                throw new ArgumentNullException(url);
             }
 
             try
@@ -21,7 +21,7 @@ namespace MediaLogue.Infrastructure.Data.Tvdb
                 {
                     client.Timeout = TimeSpan.FromSeconds(7);
 
-                    var response = await client.GetAsync(uri, HttpCompletionOption.ResponseContentRead);
+                    var response = client.GetAsync(uri, HttpCompletionOption.ResponseContentRead).Result;
                     if (!response.IsSuccessStatusCode)
                     {
                         throw new BadResponseException(response.StatusCode);

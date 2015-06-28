@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.Threading.Tasks;
-using MediaLogue.Core.Domain.Contracts;
+using MediaLogue.Domain.Contracts;
 
 namespace MediaLogue.Infrastructure.Data.Tvdb
 {
@@ -20,14 +20,14 @@ namespace MediaLogue.Infrastructure.Data.Tvdb
 
         public async Task<Stream> GetShowFull(int showId)
         {
-            var url = $"{BaseUrl}/api/{_apiKey}/series/{showId}/all/en.zip";
+            var url = string.Format("{0}/api/{1}/series/{2}/all/en.zip", BaseUrl, _apiKey, showId);
             var response = await _webClient.GetAsync(url);
             return await response.Content.ReadAsStreamAsync();
         }
 
         public async Task<string> GetShow(int showId)
         {
-            var url = $"{BaseUrl}/api/{_apiKey}/series/{showId}/all/en.xml";
+            var url = string.Format("{0}/api/{1}/series/{2}/all/en.xml", BaseUrl, _apiKey, showId);
             var response = await _webClient.GetAsync(url);
             return await response.Content.ReadAsStringAsync();
         }
@@ -36,10 +36,10 @@ namespace MediaLogue.Infrastructure.Data.Tvdb
         {
             if (title == null)
             {
-                throw new ArgumentNullException(nameof(title));
+                throw new ArgumentNullException(title);
             }
 
-            var url = $"{BaseUrl}/api/GetSeries.php?seriesname={title}&language=en";
+            var url = string.Format("{0}/api/GetSeries.php?seriesname={1}&language=en", BaseUrl, title);
             var response = await _webClient.GetAsync(url);
             return await response.Content.ReadAsStringAsync();
         }

@@ -41,12 +41,13 @@
       <HintPath>..\..\packages\FluentAssertions.3.3.0\lib\net45\FluentAssertions.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Specify, Version=0.8.76.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Specify.0.8.76\lib\Specify.dll</HintPath>
+    <Reference Include="Specify, Version=0.8.82.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Specify.0.8.82\lib\Specify.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -71,16 +72,21 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\app\MediaLogue.Core\MediaLogue.Core.csproj">
+    <ProjectReference Include="..\..\app\MediaLogue.Core\MediaLogue.Domain.csproj">
       <Project>{DBD749D5-4A7C-41FB-BF8C-648BF2992FA8}</Project>
-      <Name>MediaLogue.Core</Name>
+      <Name>MediaLogue.Domain</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\app\MediaLogue.Infrastructure\MediaLogue.Infrastructure.csproj">
       <Project>{57B2109C-080D-4E54-8165-40C2AC3DFF7C}</Project>
       <Name>MediaLogue.Infrastructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Specs.Library.MediaLogue\Specs.Library.MediaLogue.csproj">
+      <Project>{7E462620-A8D2-425A-A1CE-078B6D742FB2}</Project>
+      <Name>Specs.Library.MediaLogue</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

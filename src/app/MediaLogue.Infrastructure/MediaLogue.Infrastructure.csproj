@@ -49,9 +49,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MediaLogue.Core\MediaLogue.Core.csproj">
+    <ProjectReference Include="..\MediaLogue.Core\MediaLogue.Domain.csproj">
       <Project>{DBD749D5-4A7C-41FB-BF8C-648BF2992FA8}</Project>
-      <Name>MediaLogue.Core</Name>
+      <Name>MediaLogue.Domain</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

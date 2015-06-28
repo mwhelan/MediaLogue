@@ -1,6 +1,6 @@
 ﻿using System;
-using MediaLogue.Core.Domain.Contracts;
-using MediaLogue.Core.Domain.Model;
+using MediaLogue.Domain.Contracts;
+using MediaLogue.Domain.Model;
 
 namespace MediaLogue.Infrastructure.Data.Tvdb
 {

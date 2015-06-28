@@ -1,5 +1,5 @@
 ﻿using System.Web.Http;
-using MediaLogue.Api.Core.Features;
+using MediaLogue.Application.Queries;
 using MediatR;
 
 namespace MediaLogue.Api.Core.Controllers
