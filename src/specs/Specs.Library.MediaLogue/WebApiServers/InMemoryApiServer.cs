@@ -8,23 +8,17 @@ namespace Specs.Library.MediaLogue.WebApiServers
 {
     public class InMemoryApiServer : IApiServer
     {
-        private readonly ILifetimeScope _container;
         private HttpServer _server;
         public Uri BaseAddress { get { return new Uri("http://localhost"); } }
         public HttpMessageHandler ServerHandler { get { return _server; } }
         public ApiServerHost Kind { get { return ApiServerHost.InMemory; } }
-
-        public InMemoryApiServer(ILifetimeScope container)
-        {
-            _container = container;
-        }
 
         public void Start()
         {
             try
             {
                 var httpConfig = new HttpConfiguration();
-                var apiConfig = new ApiApplication(httpConfig, _container);
+                var apiConfig = new ApiApplication(httpConfig);
                 apiConfig.Configure();
                 _server = new HttpServer(httpConfig);
             }

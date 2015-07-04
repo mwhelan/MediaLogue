@@ -1,11 +1,12 @@
 ﻿using System.Linq;
 using System.Web.Http;
 using Autofac;
-using MediaLogue.Api.Core.Config;
 using Specify;
 
 namespace Specs.Library.MediaLogue.Infrastructure
 {
+    using global::MediaLogue.Api.Core.Config;
+
     public class AutofacApplicationContainer : AutofacScenarioContainer, IApplicationContainer
     {
         public AutofacApplicationContainer() 
@@ -16,13 +17,17 @@ namespace Specs.Library.MediaLogue.Infrastructure
             return new AutofacScenarioContainer(Container.BeginLifetimeScope());
         }
 
-        private static ContainerBuilder CreateContainer()
+        private static IContainer CreateContainer()
         {
-            var builder = new AutofacContainerBuilder(new HttpConfiguration())
-                .ConfigureBuilder();
+            var app = new ApiApplication(new HttpConfiguration());
+            app.Configure(ConfigureContainer);
+            return app.Container;
+        }
+
+        private static void ConfigureContainer(ContainerBuilder builder)
+        {
             var assemblies = AssemblyTypeResolver.GetAllAssembliesFromAppDomain().ToArray();
             builder.RegisterAssemblyModules(assemblies);
-            return builder;
         }
     }
 }
