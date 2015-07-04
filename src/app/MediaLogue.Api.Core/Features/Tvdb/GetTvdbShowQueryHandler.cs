@@ -1,9 +1,8 @@
-using System.Threading.Tasks;
 using MediaLogue.Domain.Contracts;
 using MediaLogue.Domain.Model;
 using MediatR;
 
-namespace MediaLogue.Application.Queries
+namespace MediaLogue.Api.Core.Features.Tvdb
 {
     public class GetTvdbShowQueryHandler : IRequestHandler<GetTvdbShowQuery, Show>
     {

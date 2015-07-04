@@ -1,5 +1,5 @@
 ﻿using System.Web.Http;
-using MediaLogue.Application.Queries;
+using MediaLogue.Api.Core.Features.Tvdb;
 using MediatR;
 
 namespace MediaLogue.Api.Core.Controllers
