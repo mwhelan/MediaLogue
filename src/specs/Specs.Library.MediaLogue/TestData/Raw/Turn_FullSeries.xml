@@ -1,0 +1,651 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Data><Series>
+  <id>272135</id>
+  <Actors>|Jamie Bell|Seth Numrich|Heather Lind|Angus MacFadyen|Kevin McNally|Meegan Warner|Burn Gorman|Samuel Roukin|JJ Feild|Daniel Henshall|</Actors>
+  <Airs_DayOfWeek>Monday</Airs_DayOfWeek>
+  <Airs_Time>10:00 PM</Airs_Time>
+  <ContentRating>TV-14</ContentRating>
+  <FirstAired>2014-04-06</FirstAired>
+  <Genre>|Adventure|Drama|</Genre>
+  <IMDB_ID>tt2543328</IMDB_ID>
+  <Language>en</Language>
+  <Network>AMC</Network>
+  <NetworkID></NetworkID>
+  <Overview>Follows New York farmer, Abe Woodhull, who bands together with a group of childhood friends to form The Culper Ring, an unlikely group of spies who turn the tide in America's fight for independence.</Overview>
+  <Rating>8.0</Rating>
+  <RatingCount>15</RatingCount>
+  <Runtime>45</Runtime>
+  <SeriesID></SeriesID>
+  <SeriesName>TURN</SeriesName>
+  <Status>Continuing</Status>
+  <added>2013-08-08 04:59:14</added>
+  <addedBy>346515</addedBy>
+  <banner>graphical/272135-g2.jpg</banner>
+  <fanart>fanart/original/272135-6.jpg</fanart>
+  <lastupdated>1435144056</lastupdated>
+  <poster>posters/272135-3.jpg</poster>
+  <tms_wanted_old>0</tms_wanted_old>
+  <zap2it_id>SH01823452</zap2it_id>
+</Series>
+<Episode>
+  <id>4656712</id>
+  <Combined_episodenumber>1</Combined_episodenumber>
+  <Combined_season>1</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Rupert Wyatt</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Pilot</EpisodeName>
+  <EpisodeNumber>1</EpisodeNumber>
+  <FirstAired>2014-04-06</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt3381666</IMDB_ID>
+  <Language>en</Language>
+  <Overview>During the early years of the Revolutionary War, a Long Island farmer is recruited to spy on the British army.
+</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.6</Rating>
+  <RatingCount>11</RatingCount>
+  <SeasonNumber>1</SeasonNumber>
+  <Writer>Craig Silverstein</Writer>
+  <absolute_number>1</absolute_number>
+  <filename>episodes/272135/4656712.jpg</filename>
+  <lastupdated>1427885975</lastupdated>
+  <seasonid>529314</seasonid>
+  <seriesid>272135</seriesid>
+  <thumb_added>2014-03-31 13:12:01</thumb_added>
+  <thumb_height>225</thumb_height>
+  <thumb_width>400</thumb_width>
+</Episode>
+<Episode>
+  <id>4837008</id>
+  <Combined_episodenumber>2</Combined_episodenumber>
+  <Combined_season>1</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Ed Bianchi</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Who by Fire</EpisodeName>
+  <EpisodeNumber>2</EpisodeNumber>
+  <FirstAired>2014-04-13</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>To prevent Anna being blamed for the murder of a Royal Officer, Abe must find the culprit; Ben and Caleb interrogate Simcoe.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.1</Rating>
+  <RatingCount>7</RatingCount>
+  <SeasonNumber>1</SeasonNumber>
+  <Writer>Craig Silverstein</Writer>
+  <absolute_number>2</absolute_number>
+  <filename>episodes/272135/4837008.jpg</filename>
+  <lastupdated>1427885991</lastupdated>
+  <seasonid>529314</seasonid>
+  <seriesid>272135</seriesid>
+  <thumb_added>2014-03-31 02:03:20</thumb_added>
+  <thumb_height>225</thumb_height>
+  <thumb_width>400</thumb_width>
+</Episode>
+<Episode>
+  <id>4837009</id>
+  <Combined_episodenumber>3</Combined_episodenumber>
+  <Combined_season>1</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>S.J. Clarkson</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Of Cabbages and Kings</EpisodeName>
+  <EpisodeNumber>3</EpisodeNumber>
+  <FirstAired>2014-04-20</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>On the run from the British, Ben is betrayed by his own militia. Abe travels with Richard to New York to spy. Mary confronts Anna.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.4</Rating>
+  <RatingCount>8</RatingCount>
+  <SeasonNumber>1</SeasonNumber>
+  <Writer>Michael Taylor</Writer>
+  <absolute_number>3</absolute_number>
+  <filename>episodes/272135/4837009.jpg</filename>
+  <lastupdated>1427886005</lastupdated>
+  <seasonid>529314</seasonid>
+  <seriesid>272135</seriesid>
+  <thumb_added>2014-04-13 20:29:02</thumb_added>
+  <thumb_height>225</thumb_height>
+  <thumb_width>400</thumb_width>
+</Episode>
+<Episode>
+  <id>4840875</id>
+  <Combined_episodenumber>4</Combined_episodenumber>
+  <Combined_season>1</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Adam Davidson</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Eternity How Long</EpisodeName>
+  <EpisodeNumber>4</EpisodeNumber>
+  <FirstAired>2014-04-27</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>Abe and Richard grapple with orders to dig up gravestones; Ben and Caleb try to get their intelligence to General Washington.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.6</Rating>
+  <RatingCount>5</RatingCount>
+  <SeasonNumber>1</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number>4</absolute_number>
+  <filename>episodes/272135/4840875.jpg</filename>
+  <lastupdated>1427886083</lastupdated>
+  <seasonid>529314</seasonid>
+  <seriesid>272135</seriesid>
+  <thumb_added>2014-04-20 22:19:53</thumb_added>
+  <thumb_height>225</thumb_height>
+  <thumb_width>400</thumb_width>
+</Episode>
+<Episode>
+  <id>4840876</id>
+  <Combined_episodenumber>5</Combined_episodenumber>
+  <Combined_season>1</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Michael Uppendahl</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Epiphany</EpisodeName>
+  <EpisodeNumber>5</EpisodeNumber>
+  <FirstAired>2014-05-04</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>Celeb and Ben follow mysterious orders; Washington's army crosses into enemy territory.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.8</Rating>
+  <RatingCount>4</RatingCount>
+  <SeasonNumber>1</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number>5</absolute_number>
+  <filename>episodes/272135/4840876.jpg</filename>
+  <lastupdated>1427886097</lastupdated>
+  <seasonid>529314</seasonid>
+  <seriesid>272135</seriesid>
+  <thumb_added>2014-04-27 22:40:10</thumb_added>
+  <thumb_height>225</thumb_height>
+  <thumb_width>400</thumb_width>
+</Episode>
+<Episode>
+  <id>4849109</id>
+  <Combined_episodenumber>6</Combined_episodenumber>
+  <Combined_season>1</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Mr. Culpeper</EpisodeName>
+  <EpisodeNumber>6</EpisodeNumber>
+  <FirstAired>2014-05-11</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>Abe heads to New York and runs into a desperate patriot along the way. Ben is tasked with creating America's first spy ring.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.4</Rating>
+  <RatingCount>5</RatingCount>
+  <SeasonNumber>1</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/272135/4849109.jpg</filename>
+  <lastupdated>1427886169</lastupdated>
+  <seasonid>529314</seasonid>
+  <seriesid>272135</seriesid>
+  <thumb_added>2014-05-04 21:02:21</thumb_added>
+  <thumb_height>225</thumb_height>
+  <thumb_width>400</thumb_width>
+</Episode>
+<Episode>
+  <id>4849110</id>
+  <Combined_episodenumber>7</Combined_episodenumber>
+  <Combined_season>1</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Mercy Moment Murder Measure</EpisodeName>
+  <EpisodeNumber>7</EpisodeNumber>
+  <FirstAired>2014-05-18</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>An old threatening presence returns to Setauket, worrying Abe that Anna is no longer protected.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>8.0</Rating>
+  <RatingCount>5</RatingCount>
+  <SeasonNumber>1</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/272135/4849110.jpg</filename>
+  <lastupdated>1427886178</lastupdated>
+  <seasonid>529314</seasonid>
+  <seriesid>272135</seriesid>
+  <thumb_added>2014-05-12 00:24:12</thumb_added>
+  <thumb_height>225</thumb_height>
+  <thumb_width>400</thumb_width>
+</Episode>
+<Episode>
+  <id>4849111</id>
+  <Combined_episodenumber>8</Combined_episodenumber>
+  <Combined_season>1</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Challenge</EpisodeName>
+  <EpisodeNumber>8</EpisodeNumber>
+  <FirstAired>2014-05-25</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>Anna looks for enemy intelligence at an exclusive gentleman's party against Abe's wishes. </Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.6</Rating>
+  <RatingCount>5</RatingCount>
+  <SeasonNumber>1</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/272135/4849111.jpg</filename>
+  <lastupdated>1427886188</lastupdated>
+  <seasonid>529314</seasonid>
+  <seriesid>272135</seriesid>
+  <thumb_added>2014-05-18 21:10:06</thumb_added>
+  <thumb_height>225</thumb_height>
+  <thumb_width>400</thumb_width>
+</Episode>
+<Episode>
+  <id>4849112</id>
+  <Combined_episodenumber>9</Combined_episodenumber>
+  <Combined_season>1</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Ken Fink</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Against Thy Neighbor</EpisodeName>
+  <EpisodeNumber>9</EpisodeNumber>
+  <FirstAired>2014-06-01</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>Simcoe tries to hunt out the rebel conspirators in Setauket. Ben is sent away on a secret mission. </Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.8</Rating>
+  <RatingCount>4</RatingCount>
+  <SeasonNumber>1</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/272135/4849112.jpg</filename>
+  <lastupdated>1427886197</lastupdated>
+  <seasonid>529314</seasonid>
+  <seriesid>272135</seriesid>
+  <thumb_added>2014-05-25 22:17:05</thumb_added>
+  <thumb_height>225</thumb_height>
+  <thumb_width>400</thumb_width>
+</Episode>
+<Episode>
+  <id>4849113</id>
+  <Combined_episodenumber>10</Combined_episodenumber>
+  <Combined_season>1</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>The Battle of Setauket</EpisodeName>
+  <EpisodeNumber>10</EpisodeNumber>
+  <FirstAired>2014-06-08</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>Mary struggles when she realizes that Abe is a spy working for the other side. Ben and Caleb hope to save Patriot families when they carry out a raid on Setauket.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.7</Rating>
+  <RatingCount>3</RatingCount>
+  <SeasonNumber>1</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/272135/4849113.jpg</filename>
+  <lastupdated>1427886208</lastupdated>
+  <seasonid>529314</seasonid>
+  <seriesid>272135</seriesid>
+  <thumb_added>2014-06-02 08:55:18</thumb_added>
+  <thumb_height>225</thumb_height>
+  <thumb_width>400</thumb_width>
+</Episode>
+<Episode>
+  <id>5140842</id>
+  <Combined_episodenumber>1</Combined_episodenumber>
+  <Combined_season>2</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Thoughts of a Free Man</EpisodeName>
+  <EpisodeNumber>1</EpisodeNumber>
+  <FirstAired>2015-04-13</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt3825352</IMDB_ID>
+  <Language>en</Language>
+  <Overview>A spy in London sends an urgent message to America. Mary impedes Abe's attempt to restart the spy ring. Benedict Arnold arrives in camp.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>8.0</Rating>
+  <RatingCount>1</RatingCount>
+  <SeasonNumber>2</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/272135/5140842.jpg</filename>
+  <lastupdated>1435047685</lastupdated>
+  <seasonid>614433</seasonid>
+  <seriesid>272135</seriesid>
+  <thumb_added>2015-04-14 07:15:32</thumb_added>
+  <thumb_height>225</thumb_height>
+  <thumb_width>400</thumb_width>
+</Episode>
+<Episode>
+  <id>5140844</id>
+  <Combined_episodenumber>2</Combined_episodenumber>
+  <Combined_season>2</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Hard Boiled</EpisodeName>
+  <EpisodeNumber>2</EpisodeNumber>
+  <FirstAired>2015-04-13</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt4120336</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Abe gathers intelligence in New York. Simcoe escapes his punishment. John Andre attends a ball in Philadelphia and meets Peggy Shippen.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>2</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/272135/5140844.jpg</filename>
+  <lastupdated>1435047721</lastupdated>
+  <seasonid>614433</seasonid>
+  <seriesid>272135</seriesid>
+  <thumb_added>2015-04-14 07:16:01</thumb_added>
+  <thumb_height>225</thumb_height>
+  <thumb_width>400</thumb_width>
+</Episode>
+<Episode>
+  <id>5196317</id>
+  <Combined_episodenumber>3</Combined_episodenumber>
+  <Combined_season>2</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>False Flag</EpisodeName>
+  <EpisodeNumber>3</EpisodeNumber>
+  <FirstAired>2015-04-20</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt4196132</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Ben sets a trap to expose a traitor.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>8.0</Rating>
+  <RatingCount>1</RatingCount>
+  <SeasonNumber>2</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/272135/5196317.jpg</filename>
+  <lastupdated>1435047742</lastupdated>
+  <seasonid>614433</seasonid>
+  <seriesid>272135</seriesid>
+  <thumb_added>2015-04-14 07:23:24</thumb_added>
+  <thumb_height>225</thumb_height>
+  <thumb_width>400</thumb_width>
+</Episode>
+<Episode>
+  <id>5196318</id>
+  <Combined_episodenumber>4</Combined_episodenumber>
+  <Combined_season>2</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Men of Blood</EpisodeName>
+  <EpisodeNumber>4</EpisodeNumber>
+  <FirstAired>2015-04-27</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>Abe tries to recruit a new agent; Caleb and Rogers race to hunt down intelligence from London; Andre's history is exposed.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>9.0</Rating>
+  <RatingCount>1</RatingCount>
+  <SeasonNumber>2</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/272135/5196318.jpg</filename>
+  <lastupdated>1435047758</lastupdated>
+  <seasonid>614433</seasonid>
+  <seriesid>272135</seriesid>
+  <thumb_added>2015-04-28 19:41:22</thumb_added>
+  <thumb_height>225</thumb_height>
+  <thumb_width>400</thumb_width>
+</Episode>
+<Episode>
+  <id>5196319</id>
+  <Combined_episodenumber>5</Combined_episodenumber>
+  <Combined_season>2</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Sealed Fate</EpisodeName>
+  <EpisodeNumber>5</EpisodeNumber>
+  <FirstAired>2015-05-04</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>Abe makes one last effort to recruit a spy inside New York; Ben must determine who is a double agent.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>9.0</Rating>
+  <RatingCount>1</RatingCount>
+  <SeasonNumber>2</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/272135/5196319.jpg</filename>
+  <lastupdated>1435047785</lastupdated>
+  <seasonid>614433</seasonid>
+  <seriesid>272135</seriesid>
+  <thumb_added>2015-05-08 16:31:40</thumb_added>
+  <thumb_height>225</thumb_height>
+  <thumb_width>400</thumb_width>
+</Episode>
+<Episode>
+  <id>5196320</id>
+  <Combined_episodenumber>6</Combined_episodenumber>
+  <Combined_season>2</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Houses Divided</EpisodeName>
+  <EpisodeNumber>6</EpisodeNumber>
+  <FirstAired>2015-05-11</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>Mary begs Richard to help get Abe free from prison; Anna tries to seduce Simcoe; Ben and Caleb rescue Hewlett.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>9.0</Rating>
+  <RatingCount>1</RatingCount>
+  <SeasonNumber>2</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/272135/5196320.jpg</filename>
+  <lastupdated>1435047805</lastupdated>
+  <seasonid>614433</seasonid>
+  <seriesid>272135</seriesid>
+  <thumb_added>2015-05-13 02:19:51</thumb_added>
+  <thumb_height>225</thumb_height>
+  <thumb_width>400</thumb_width>
+</Episode>
+<Episode>
+  <id>5224473</id>
+  <Combined_episodenumber>7</Combined_episodenumber>
+  <Combined_season>2</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Valley Forge</EpisodeName>
+  <EpisodeNumber>7</EpisodeNumber>
+  <FirstAired>2015-05-18</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>Washington faces a personal crisis with the help of his slave, Billy Lee. Abe struggles to maintain his cover while in prison.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>9.0</Rating>
+  <RatingCount>1</RatingCount>
+  <SeasonNumber>2</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/272135/5224473.jpg</filename>
+  <lastupdated>1435047857</lastupdated>
+  <seasonid>614433</seasonid>
+  <seriesid>272135</seriesid>
+  <thumb_added>2015-05-19 19:12:06</thumb_added>
+  <thumb_height>225</thumb_height>
+  <thumb_width>400</thumb_width>
+</Episode>
+<Episode>
+  <id>5224474</id>
+  <Combined_episodenumber>8</Combined_episodenumber>
+  <Combined_season>2</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag>1</EpImgFlag>
+  <EpisodeName>Providence</EpisodeName>
+  <EpisodeNumber>8</EpisodeNumber>
+  <FirstAired>2015-05-25</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>Caleb sails into New York Harbor; France makes an alliance with the American Patriots; Andre and Peggy plan to elope.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>8.5</Rating>
+  <RatingCount>2</RatingCount>
+  <SeasonNumber>2</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/272135/5224474.jpg</filename>
+  <lastupdated>1435047882</lastupdated>
+  <seasonid>614433</seasonid>
+  <seriesid>272135</seriesid>
+  <thumb_added>2015-05-26 19:40:39</thumb_added>
+  <thumb_height>300</thumb_height>
+  <thumb_width>400</thumb_width>
+</Episode>
+<Episode>
+  <id>5224475</id>
+  <Combined_episodenumber>9</Combined_episodenumber>
+  <Combined_season>2</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag>1</EpImgFlag>
+  <EpisodeName>The Prodigal</EpisodeName>
+  <EpisodeNumber>9</EpisodeNumber>
+  <FirstAired>2015-06-01</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>Abe returns from prison with crucial information; tensions rise between Hewlett and Simcoe; Arnold rescues Peggy.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>8.0</Rating>
+  <RatingCount>2</RatingCount>
+  <SeasonNumber>2</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/272135/5224475.jpg</filename>
+  <lastupdated>1435047902</lastupdated>
+  <seasonid>614433</seasonid>
+  <seriesid>272135</seriesid>
+  <thumb_added>2015-05-26 19:42:03</thumb_added>
+  <thumb_height>300</thumb_height>
+  <thumb_width>400</thumb_width>
+</Episode>
+<Episode>
+  <id>5224476</id>
+  <Combined_episodenumber>10</Combined_episodenumber>
+  <Combined_season>2</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Gunpowder, Treason, and Plot</EpisodeName>
+  <EpisodeNumber>10</EpisodeNumber>
+  <FirstAired>2015-06-08</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>Abe plots Major Hewlett's assassination; Ben fights at the Battle of Monmouth; Benedict Arnold longs for Peggy.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>9.0</Rating>
+  <RatingCount>2</RatingCount>
+  <SeasonNumber>2</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/272135/5224476.jpg</filename>
+  <lastupdated>1435144105</lastupdated>
+  <seasonid>614433</seasonid>
+  <seriesid>272135</seriesid>
+  <thumb_added>2015-06-09 17:59:50</thumb_added>
+  <thumb_height>225</thumb_height>
+  <thumb_width>400</thumb_width>
+</Episode>
+</Data>
