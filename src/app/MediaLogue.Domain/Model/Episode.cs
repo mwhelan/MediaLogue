@@ -8,9 +8,6 @@ namespace MediaLogue.Domain.Model
     /// </summary>
     public class Episode : Entity
     {
-        public Episode(int id) 
-            : base(id) { }
-
         /// <summary>
         /// This episode's season id.
         /// </summary>
@@ -85,5 +82,8 @@ namespace MediaLogue.Domain.Model
         /// Height dimension of the thumbnail in pixels.
         /// </summary>
         public int? ThumbHeight { get; set; }
+
+        public int ShowId { get; set; }
+        public Show Show { get; set; }
     }
 }

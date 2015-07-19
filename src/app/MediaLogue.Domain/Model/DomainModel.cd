@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MediaLogue.Domain.Model.Actor" Collapsed="true">
+    <Position X="3" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAEAAAAAQAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Model\Actor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MediaLogue.Domain.Model.Banner" Collapsed="true">
+    <Position X="5.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAQAAgAA=</HashCode>
+      <FileName>Model\Banner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MediaLogue.Domain.Model.ContentRatingExtension" Collapsed="true">
+    <Position X="12.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Model\ContentRating.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MediaLogue.Domain.Model.Entity" Collapsed="true">
+    <Position X="6.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAgAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Entity.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MediaLogue.Domain.Model.Episode" Collapsed="true">
+    <Position X="9.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIggIBAAAAAggEAAAEAgAAEAABAEAAMAABAAAQAAAAA=</HashCode>
+      <FileName>Model\Episode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MediaLogue.Domain.Model.Show" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAEAKAigEAAiAIACAMAAAAAAAEAAAAAAQZAAAA=</HashCode>
+      <FileName>Model\Show.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="MediaLogue.Domain.Model.ContentRating" Collapsed="true">
+    <Position X="12.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAIAAAAAAAAAABgAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Model\ContentRating.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MediaLogue.Domain.Model.Frequency" Collapsed="true">
+    <Position X="14" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAIAACAAAAAAAAAAACQAIACAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Frequency.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MediaLogue.Domain.Model.Status" Collapsed="true">
+    <Position X="12.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Model\Status.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

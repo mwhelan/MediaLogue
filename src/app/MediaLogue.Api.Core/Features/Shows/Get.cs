@@ -1,6 +1,6 @@
-using MediaLogue.Domain.Contracts;
+using System.Linq;
 using MediaLogue.Domain.Model;
-using MediaLogue.Infrastructure.Data.DocumentDb;
+using MediaLogue.Infrastructure.Data;
 using MediatR;
 
 namespace MediaLogue.Api.Core.Features.Shows
@@ -14,9 +14,16 @@ namespace MediaLogue.Api.Core.Features.Shows
 
         public class Handler : IRequestHandler<Query, Show>
         {
+            private readonly IMediaLogueContext _db;
+
+            public Handler(IMediaLogueContext db)
+            {
+                _db = db;
+            }
+
             public Show Handle(Query message)
             {
-                return DocumentDbRepository<Show>.GetShow(x => x.Id == message.ShowId);
+                return _db.Shows.FirstOrDefault(x => x.Id == message.ShowId);
             }
         }
     }

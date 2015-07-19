@@ -8,9 +8,6 @@ namespace MediaLogue.Domain.Model
     /// </summary>
     public class Show : Entity
     {
-        public Show(int id)
-            : base(id) { }
-
         /// <summary>
         /// Name of the show.
         /// </summary>
@@ -104,9 +101,9 @@ namespace MediaLogue.Domain.Model
         /// <summary>
         /// A list of all episodes associated with this show.
         /// </summary>
-        public IReadOnlyCollection<Episode> Episodes { get; set; }
+        public virtual ICollection<Episode> Episodes { get; set; }
 
-        public IReadOnlyCollection<Banner> Banners { get; set; }
+        public virtual ICollection<Banner> Banners { get; set; }
 
     }
 }

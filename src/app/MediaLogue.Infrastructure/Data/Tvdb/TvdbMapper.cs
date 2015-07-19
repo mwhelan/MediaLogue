@@ -66,8 +66,9 @@ namespace MediaLogue.Infrastructure.Data.Tvdb
             var id = seriesXml.ElementAsInt("id");
             if (!id.HasValue) throw new Exception("Error while parsing a series xml element. Id is missing.");
 
-            var series = new Show(id.Value)
+            var series = new Show()
             {
+                Id = id.Value,
                 ImdbId = seriesXml.ElementAsString("IMDB_ID"),
                 Title = seriesXml.ElementAsString("SeriesName", true),
                 Network = seriesXml.ElementAsString("Network"),
@@ -144,8 +145,9 @@ namespace MediaLogue.Infrastructure.Data.Tvdb
             var number = episodeXml.ElementAsInt("EpisodeNumber");
             if (!number.HasValue) throw new Exception("Error while parsing an episode xml element. EpisodeNumber is missing.");
 
-            return new Episode(id.Value)
+            return new Episode()
             {
+                Id = id.Value,
                 SeasonId = episodeXml.ElementAsInt("seasonid"),
                 SeasonNumber = episodeXml.ElementAsInt("SeasonNumber"),
                 FirstAired = episodeXml.ElementAsDateTime("FirstAired"),

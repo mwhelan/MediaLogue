@@ -1,6 +1,5 @@
 using MediaLogue.Domain.Contracts;
 using MediaLogue.Domain.Model;
-using MediaLogue.Infrastructure.Data.DocumentDb;
 using MediatR;
 
 namespace MediaLogue.Api.Core.Features.Shows
@@ -25,14 +24,14 @@ namespace MediaLogue.Api.Core.Features.Shows
 
             protected override async void HandleCore(Command message)
             {
-                var showInDb = DocumentDbRepository<Show>.GetShow(x => x.Id == message.ShowId);
-                if (showInDb == null)
-                {
-                    var xml = _gateway.GetShow(message.ShowId).Result;
-                    var show = _mapper.MapShowFrom(xml);
+                //var showInDb = DocumentDbRepository<Show>.GetShow(x => x.Id == message.ShowId);
+                //if (showInDb == null)
+                //{
+                //    var xml = _gateway.GetShow(message.ShowId).Result;
+                //    var show = _mapper.MapShowFrom(xml);
 
-                    await DocumentDbRepository<Show>.CreateItemAsync(show);
-                }
+                //    await DocumentDbRepository<Show>.CreateItemAsync(show);
+                //}
             }
         }
     }

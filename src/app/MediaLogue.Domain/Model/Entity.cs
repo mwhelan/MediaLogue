@@ -4,15 +4,10 @@ namespace MediaLogue.Domain.Model
 {
     public abstract class Entity : IEquatable<Entity>
     {
-        protected Entity(int id)
-        {
-            Id = id;
-        }
-
         /// <summary>
         /// Unique identifier used by TVDB.
         /// </summary>
-        public int Id { get; private set; }
+        public int Id { get; set; }
 
         public bool Equals(Entity other)
         {
