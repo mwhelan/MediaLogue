@@ -61,6 +61,7 @@
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
@@ -70,6 +71,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Threading.Tasks" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Web.Http, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Microsoft.AspNet.WebApi.Core.5.2.3\lib\net45\System.Web.Http.dll</HintPath>
       <Private>True</Private>
@@ -87,6 +89,7 @@
     <Compile Include="Config\Modules\DomainModule.cs" />
     <Compile Include="Config\Modules\InfrastructureModule.cs" />
     <Compile Include="Config\Modules\MediatrModule.cs" />
+    <Compile Include="Config\Modules\RegistrationExtensions.cs" />
     <Compile Include="Config\SwaggerConfig.cs" />
     <Compile Include="Features\Shows\Get.cs" />
     <Compile Include="Features\Shows\Post.cs" />

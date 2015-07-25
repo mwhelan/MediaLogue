@@ -7,16 +7,20 @@ namespace MediaLogue.Infrastructure.Data
 {
     public interface IMediaLogueContext
     {
+        Database Database { get; }
         DbSet<Show> Shows { get; }
         //DbSet<Episode> Episodes { get; }
+        int SaveChanges();
     }
 
     public class MediaLogueContext : DbContext, IMediaLogueContext
     {
-        public MediaLogueContext()
+        public MediaLogueContext(string connectionString)
+            : base(connectionString)
         {
             Database.SetInitializer<MediaLogueContext>(new CreateDatabaseIfNotExists<MediaLogueContext>());
         }
+
         public DbSet<Show> Shows { get; set; }
     //    public DbSet<Episode> Episodes { get; private set; }
 

@@ -1,13 +1,13 @@
-﻿namespace Specs.Component.MediaLogue
+﻿using Specify;
+using Specify.Configuration;
+
+using Specs.Library.MediaLogue.Infrastructure;
+
+using TestStack.BDDfy.Configuration;
+using TestStack.BDDfy.Reporters.Html;
+
+namespace Specs.Component.MediaLogue
 {
-    using Specify;
-    using Specify.Configuration;
-
-    using Specs.Library.MediaLogue.Infrastructure;
-
-    using TestStack.BDDfy.Configuration;
-    using TestStack.BDDfy.Reporters.Html;
-
     public class SpecifyConfig : SpecifyBootstrapper
     {
         public SpecifyConfig()
