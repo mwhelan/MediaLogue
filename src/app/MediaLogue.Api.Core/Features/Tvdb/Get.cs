@@ -1,5 +1,7 @@
 using MediaLogue.Domain.Contracts;
+using MediaLogue.Domain.Contracts.Services;
 using MediaLogue.Domain.Model;
+using MediaLogue.Domain.Services;
 using MediatR;
 
 namespace MediaLogue.Api.Core.Features.Tvdb
@@ -13,19 +15,16 @@ namespace MediaLogue.Api.Core.Features.Tvdb
 
         public class Handler : IRequestHandler<Query, Show>
         {
-            private readonly ITvdbGateway _gateway;
-            private readonly ITvdbMapper _mapper;
+            private readonly ITvdbService _tvdbService;
 
-            public Handler(ITvdbGateway gateway, ITvdbMapper mapper)
+            public Handler(ITvdbService tvdbService)
             {
-                _gateway = gateway;
-                _mapper = mapper;
+                _tvdbService = tvdbService;
             }
 
             public Show Handle(Query message)
             {
-                var xml = _gateway.GetShow(message.ShowId).Result;
-                var show = _mapper.MapShowFrom(xml);
+                var show = _tvdbService.GetShow(message.ShowId);
 
                 return show;
             }

@@ -1,14 +1,9 @@
-﻿using System.Threading.Tasks;
-using MediaLogue.Domain.Contracts;
+﻿using MediaLogue.Domain.Contracts;
+using MediaLogue.Domain.Contracts.Services;
 using MediaLogue.Domain.Model;
 
 namespace MediaLogue.Domain.Services
 {
-    public interface ITvdbService
-    {
-        Task<Show> GetShow(int id);
-    }
-
     public class TvdbService : ITvdbService
     {
         private readonly ITvdbGateway _gateway;
@@ -20,9 +15,9 @@ namespace MediaLogue.Domain.Services
             _mapper = mapper;
         }
 
-        public async Task<Show> GetShow(int id)
+        public Show GetShow(int id)
         {
-            var xml = await _gateway.GetShow(id);
+            var xml = _gateway.GetShow(id).Result;
             var show = _mapper.MapShowFrom(xml);
             return show;
         }

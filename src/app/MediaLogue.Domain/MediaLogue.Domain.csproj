@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="Contracts\ITvdbGateway.cs" />
     <Compile Include="Contracts\ITvdbMapper.cs" />
+    <Compile Include="Contracts\Services\ITvdbService.cs" />
     <Compile Include="Model\Actor.cs" />
     <Compile Include="Model\Banner.cs" />
     <Compile Include="Model\Entity.cs" />

@@ -1,25 +1,27 @@
-﻿namespace Specs.Component.MediaLogue.Features.Tvdb
+﻿using System.Net.Http;
+
+using FluentAssertions;
+
+using MediaLogue.Domain.Model;
+
+using Specs.Library.MediaLogue;
+using Specs.Library.MediaLogue.TestData;
+using Specs.Library.MediaLogue.WebApiServers;
+
+namespace Specs.Component.MediaLogue.Features.Tvdb
 {
-    using System.Net.Http;
-
-    using FluentAssertions;
-
-    using global::MediaLogue.Domain.Model;
-
-    using Specs.Library.MediaLogue;
-    using Specs.Library.MediaLogue.TestData;
-    using Specs.Library.MediaLogue.WebApiServers;
-
     public class CanGetShowFromTvdbWithValidId : ScenarioFor<WebApiDriver,TvdbStory>
     {
+        private string _url;
+
         public void Given_a_valid_TVDB_ID()
         {
+            _url = Const.Urls.Tvdb_GetShow(ShowData.TheFieldOfBlood.Id);
         }
 
         public void When_I_request_the_Show_from_TVDB()
         {
-            var url = Const.Urls.Tvdb_GetShow(ShowData.TheFieldOfBlood.Id);
-            SUT.Execute(url);
+            SUT.Execute(_url);
         }
 
         public void Then_should_return_Show()

@@ -84,6 +84,7 @@
   <ItemGroup>
     <Compile Include="Config\ApiApplication.cs" />
     <Compile Include="Config\IApiApplication.cs" />
+    <Compile Include="Config\Modules\DomainModule.cs" />
     <Compile Include="Config\Modules\InfrastructureModule.cs" />
     <Compile Include="Config\Modules\MediatrModule.cs" />
     <Compile Include="Config\SwaggerConfig.cs" />
