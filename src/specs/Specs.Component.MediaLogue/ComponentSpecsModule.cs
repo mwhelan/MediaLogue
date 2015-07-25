@@ -1,12 +1,12 @@
-﻿namespace Specs.Component.MediaLogue
+﻿using Autofac;
+
+using MediaLogue.Domain.Contracts;
+
+using Specs.Library.MediaLogue.TestData.Stubs;
+using Specs.Library.MediaLogue.WebApiServers;
+
+namespace Specs.Component.MediaLogue
 {
-    using Autofac;
-
-    using global::MediaLogue.Domain.Contracts;
-
-    using Specs.Library.MediaLogue.TestData.Stubs;
-    using Specs.Library.MediaLogue.WebApiServers;
-
     public class ComponentSpecsModule : Module
     {
         protected override void Load(ContainerBuilder builder)

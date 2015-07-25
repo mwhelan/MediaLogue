@@ -7,8 +7,8 @@ namespace Specs.Library.MediaLogue.TestData
 
         public ShowStub(int id, string fullSeriesXmlFileName)
         {
-            this._fullSeriesXmlFileName = fullSeriesXmlFileName;
-            this.Id = id;
+            _fullSeriesXmlFileName = fullSeriesXmlFileName;
+            Id = id;
         }
 
         public int Id { get; set; }
@@ -17,11 +17,11 @@ namespace Specs.Library.MediaLogue.TestData
         {
             get
             {
-                if (this._fullSeriesXml == null)
+                if (_fullSeriesXml == null)
                 {
-                    this._fullSeriesXml = Utilities.GetContentsFromEmbeddedResource(this._fullSeriesXmlFileName);
+                    _fullSeriesXml = Utilities.GetContentsFromEmbeddedResource(_fullSeriesXmlFileName);
                 }
-                return this._fullSeriesXml;
+                return _fullSeriesXml;
             }
         }
     }

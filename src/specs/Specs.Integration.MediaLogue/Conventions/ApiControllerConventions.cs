@@ -15,7 +15,7 @@
 
         public void Given_the_Api_Controllers()
         {
-             this.types = Types.InAssemblyOf<TvdbController>();
+             types = Types.InAssemblyOf<TvdbController>();
         }
 
         public void When_the_convention_is_applied()

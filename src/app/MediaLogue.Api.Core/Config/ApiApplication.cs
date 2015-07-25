@@ -55,7 +55,7 @@ namespace MediaLogue.Api.Core.Config
                 defaults: new { id = RouteParameter.Optional }
                 );
 
-            SwaggerConfig.Register(this.Configuration);
+            SwaggerConfig.Register(Configuration);
         }
     }
 }

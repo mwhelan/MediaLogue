@@ -12,8 +12,8 @@ namespace Specs.Integration.MediaLogue.Conventions
     {
         public ConventionsStory()
         {
-            this.Title = "Application Conventions";
-            this.TitlePrefix = string.Empty;
+            Title = "Application Conventions";
+            TitlePrefix = string.Empty;
         }
     }
 }

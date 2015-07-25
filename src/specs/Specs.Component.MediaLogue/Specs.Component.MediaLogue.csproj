@@ -82,6 +82,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ComponentSpecsModule.cs" />
+    <Compile Include="Features\Diagnostics\Api_App_Logging.cs" />
+    <Compile Include="Features\Diagnostics\DiagnosticsStory.cs" />
+    <Compile Include="Features\ImageManagement\Generate_Thumbnail_Images.cs" />
+    <Compile Include="Features\ImageManagement\ImageManagementStory.cs" />
+    <Compile Include="Features\ImageManagement\Image_updates_exist_on_TVDB.cs" />
+    <Compile Include="Features\MetatdataManagement\Do_not_have_show_metadata_and_show_is_in_TVDB.cs" />
+    <Compile Include="Features\MetatdataManagement\Do_not_have_show_metadata_and_show_is_not_in_TVDB.cs" />
+    <Compile Include="Features\MetatdataManagement\Have_show_metadata.cs" />
+    <Compile Include="Features\MetatdataManagement\MetadataManagementStory.cs" />
+    <Compile Include="Features\MetatdataManagement\Metadata_updates_exist_on_TVDB.cs" />
     <Compile Include="Features\Tvdb\CanGetShowFromTvdbWithValidID.cs" />
     <Compile Include="Features\Tvdb\CannotGetShowFromTvdbWithInvalidId.cs" />
     <Compile Include="Features\Tvdb\TvdbStory.cs" />

@@ -17,13 +17,13 @@
 
         public void Setup()
         {
-            this.SUT = new ApiApplication(new HttpConfiguration());
+            SUT = new ApiApplication(new HttpConfiguration());
         }
 
         public void Given_the_fully_configured_Autofac_container()
         {
-            this.SUT.Configure();
-            this.data = new AutofacRegistrations(this.SUT.Container.ComponentRegistry);
+            SUT.Configure();
+            data = new AutofacRegistrations(SUT.Container.ComponentRegistry);
         }
 
         /// <summary>
@@ -33,12 +33,12 @@
         {
             public void When_the_convention_is_applied()
             {
-                this.convention = new ServicesShouldOnlyHaveDependenciesWithLesserLifetime();
+                convention = new ServicesShouldOnlyHaveDependenciesWithLesserLifetime();
             }
 
             public void Then_services_should_only_have_dependencies_with_lesser_lifetimes()
             {
-                Convention.Is(this.convention, this.data);
+                Convention.Is(convention, data);
             }
         }
 
@@ -46,12 +46,12 @@
         {
             public void When_the_convention_is_applied()
             {
-                this.convention = new CanResolveAllRegisteredServices(this.SUT.Container);
+                convention = new CanResolveAllRegisteredServices(SUT.Container);
             }
 
             public void Then_services_should_all_be_resolved()
             {
-                Convention.Is(this.convention, this.data);
+                Convention.Is(convention, data);
             }
         }
     }

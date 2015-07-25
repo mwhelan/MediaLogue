@@ -26,7 +26,7 @@ namespace Specs.Component.MediaLogue.Features.Tvdb
 
         public void Then_should_return_Show()
         {
-            var show = this.SUT.Response.Content.ReadAsAsync<Show>().Result;
+            var show = SUT.Response.Content.ReadAsAsync<Show>().Result;
             show.Id.Should().Be(ShowData.TheFieldOfBlood.Id);
         }
     }

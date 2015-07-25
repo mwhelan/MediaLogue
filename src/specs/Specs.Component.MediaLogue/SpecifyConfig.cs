@@ -14,7 +14,7 @@
         {
             Configurator.BatchProcessors.HtmlReport.Disable();
             Configurator.BatchProcessors.Add(new HtmlReporter(new ReportConfig()));
-            this.LoggingEnabled = true;
+            LoggingEnabled = true;
         }
 
         public override IApplicationContainer CreateApplicationContainer()
