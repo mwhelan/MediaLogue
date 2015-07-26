@@ -7,7 +7,7 @@ namespace MediaLogue.Api.Core.Config.Settings
         public RemoteAppSettings()
         {
             WebApiBaseUrl = ConfigurationManager.AppSettings["BaseUrl"];
-            DatabaseConnectionString = ConfigurationManager.ConnectionStrings[""].ConnectionString;
+            DatabaseConnectionString = ConfigurationManager.ConnectionStrings["MediaLogueConnectionString"].ConnectionString;
         }
         public string WebApiBaseUrl { get; private set; }
         public string DatabaseConnectionString { get; private set; }

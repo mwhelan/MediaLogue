@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Configuration;
-using System.Diagnostics;
-using System.Web.Http;
 using Autofac;
 using MediaLogue.Api.Core.Config.Settings;
 using MediaLogue.Domain.Contracts;
@@ -24,7 +21,7 @@ namespace Specs.Component.MediaLogue
             else
             {
                 var uri = new Uri(AppSettings.Settings.WebApiBaseUrl);
-                builder.Register(c => new AspNetApiServer(uri)).SingleInstance();
+                builder.Register(c => new AspNetApiServer(uri)).As<IApiServer>().SingleInstance();
             }
 
             builder.RegisterType<WebApiDriver>();

@@ -8,6 +8,23 @@ namespace Specs.Library.MediaLogue.WebApi
 {
     public static class Requester
     {
+        public static HttpRequestMessage Create(string baseAddress, string relativeUrl, HttpMethod httpMethod)
+        {
+            if (httpMethod == null)
+            {
+                httpMethod = HttpMethod.Get;
+            }
+
+            if (!baseAddress.EndsWith(@"/"))
+            {
+                baseAddress = baseAddress + @"/";
+            }
+
+            var url = string.Format("{0}{1}", baseAddress, relativeUrl);
+
+            return Create(httpMethod, url);
+        }
+
         public static HttpRequestMessage Create(string uri)
         {
             return new HttpRequestMessage(HttpMethod.Get, uri);

@@ -9,7 +9,7 @@ namespace Specs.Library.MediaLogue.WebApiServers
 
         public AspNetApiServer(Uri baseAddress)
         {
-            _baseAddress = baseAddress;
+            _baseAddress = ValidUrl(baseAddress);
         }
 
         public Uri BaseAddress
@@ -32,6 +32,18 @@ namespace Specs.Library.MediaLogue.WebApiServers
         public void Stop()
         {
             Console.WriteLine("Nothing to stop....");
+        }
+
+        private Uri ValidUrl(Uri url)
+        {
+            if (url.OriginalString.EndsWith(@"/"))
+            {
+                return url;
+            }
+            else
+            {
+                return new Uri(url.OriginalString + @"/");
+            }
         }
     }
 }

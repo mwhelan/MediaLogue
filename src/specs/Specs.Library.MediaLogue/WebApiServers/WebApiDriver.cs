@@ -33,13 +33,7 @@ namespace Specs.Library.MediaLogue.WebApiServers
 
         public virtual void Execute(string relativeUrl, HttpMethod httpMethod = null)
         {
-            if (httpMethod == null)
-            {
-                httpMethod = HttpMethod.Get;
-            }
-            var url = string.Format("{0}{1}", _server.BaseAddress, relativeUrl);
-
-            var request = Requester.Create(httpMethod, url);
+            var request = Requester.Create(_server.BaseAddress.OriginalString, relativeUrl,httpMethod);
             Execute(request);
         }
 
