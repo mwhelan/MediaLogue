@@ -25,9 +25,18 @@
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DefineConstants>TRACE</DefineConstants>
+    <DefineConstants>TRACE;RELEASE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'DEBUG_REMOTE|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\DEBUG_REMOTE\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Autofac, Version=3.5.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
@@ -90,6 +99,10 @@
     <Compile Include="Config\Modules\InfrastructureModule.cs" />
     <Compile Include="Config\Modules\MediatrModule.cs" />
     <Compile Include="Config\Modules\RegistrationExtensions.cs" />
+    <Compile Include="Config\Settings\AppSettings.cs" />
+    <Compile Include="Config\Settings\IAppSettings.cs" />
+    <Compile Include="Config\Settings\LocalAppSettings.cs" />
+    <Compile Include="Config\Settings\RemoteAppSettings.cs" />
     <Compile Include="Config\SwaggerConfig.cs" />
     <Compile Include="Features\Shows\Get.cs" />
     <Compile Include="Features\Shows\Post.cs" />

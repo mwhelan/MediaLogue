@@ -1,4 +1,5 @@
 ﻿using System.Configuration;
+using MediaLogue.Api.Core.Config.Settings;
 using Respawn;
 using Specify;
 using Specify.Configuration;
@@ -11,12 +12,7 @@ namespace Specs.Library.MediaLogue.Ef
 
         public void Before(IScenarioContainer container)
         {
-#if DEBUG
-            var connectionString = ConfigurationManager.ConnectionStrings["MediaLogueConnectionStringLocal"].ConnectionString;
-#else
-            var connectionString = ConfigurationManager.ConnectionStrings["MediaLogueConnectionString"].ConnectionString;
-#endif
-            Checkpoint.Reset(connectionString);
+            Checkpoint.Reset(AppSettings.Settings.DatabaseConnectionString);
         }
 
         public void After()

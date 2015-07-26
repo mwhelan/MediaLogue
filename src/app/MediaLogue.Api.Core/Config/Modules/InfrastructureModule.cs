@@ -1,8 +1,5 @@
-﻿using System;
-using System.Configuration;
-using System.Net.Http;
-using System.Web;
-using Autofac;
+﻿using Autofac;
+using MediaLogue.Api.Core.Config.Settings;
 using MediaLogue.Domain.Contracts;
 using MediaLogue.Infrastructure.Data;
 using MediaLogue.Infrastructure.Data.Tvdb;
@@ -13,7 +10,7 @@ namespace MediaLogue.Api.Core.Config.Modules
     {
         protected override void Load(ContainerBuilder builder)
         {
-            var connectionString = GetConnectionString();
+            var connectionString = AppSettings.Settings.DatabaseConnectionString;
             builder.Register(c => new MediaLogueContext(connectionString))
                 .As<IMediaLogueContext>()
                 .InstancePerHttpRequest();
@@ -21,16 +18,5 @@ namespace MediaLogue.Api.Core.Config.Modules
             builder.RegisterType<TvdbGateway>().As<ITvdbGateway>();
             builder.RegisterType<AsyncClient>().As<IWebClient>();
         }
-
-        private static string GetConnectionString()
-        {
-#if DEBUG
-            return ConfigurationManager.ConnectionStrings["MediaLogueConnectionStringLocal"].ConnectionString;
-#else
-            return ConfigurationManager.ConnectionStrings["MediaLogueConnectionString"].ConnectionString;
-#endif
-        }
-
-
     }
 }
