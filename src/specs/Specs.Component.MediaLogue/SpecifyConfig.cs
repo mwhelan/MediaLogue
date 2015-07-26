@@ -1,6 +1,6 @@
 ﻿using Specify;
 using Specify.Configuration;
-
+using Specs.Library.MediaLogue.Ef;
 using Specs.Library.MediaLogue.Infrastructure;
 
 using TestStack.BDDfy.Configuration;
@@ -15,6 +15,9 @@ namespace Specs.Component.MediaLogue
             Configurator.BatchProcessors.HtmlReport.Disable();
             Configurator.BatchProcessors.Add(new HtmlReporter(new ReportConfig()));
             LoggingEnabled = true;
+
+            PerAppDomainActions.Add(new SetupDatabasePerAppDomain());
+            PerTestActions.Add(new SetupDatabasePerScenario());
         }
 
         public override IApplicationContainer CreateApplicationContainer()

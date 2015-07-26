@@ -130,6 +130,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IntegrationSpecsModule.cs" />
     <Compile Include="Conventions\AutofacConventions.cs" />
     <Compile Include="Conventions\ApiControllerConventions.cs" />
     <Compile Include="Conventions\ConventionsStory.cs" />

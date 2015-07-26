@@ -132,7 +132,9 @@
     <Compile Include="Infrastructure\SpecifyModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ScenarioFor.cs" />
+    <Compile Include="TestData\Builders\ShowBuilder.cs" />
     <Compile Include="TestData\Const.cs" />
+    <Compile Include="TestData\PersistenceExtensions.cs" />
     <Compile Include="TestData\ShowData.cs" />
     <Compile Include="TestData\ShowStub.cs" />
     <Compile Include="TestData\Stubs\StubTvdbGateway.cs" />

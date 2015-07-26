@@ -1,3 +1,8 @@
+using MediaLogue.Domain.Model;
+using MediaLogue.Domain.Services;
+using MediaLogue.Infrastructure.Data.Tvdb;
+using Specs.Library.MediaLogue.TestData.Stubs;
+
 namespace Specs.Library.MediaLogue.TestData
 {
     using System.Collections.Generic;
@@ -24,6 +29,15 @@ namespace Specs.Library.MediaLogue.TestData
             {
                 get { return ShowStubs.Single(x => x.Id == Id).FullSeriesXml; }
             }
+            private static Show _show;
+            public static Show Show
+            {
+                get
+                {
+                    if (_show == null) _show = new TvdbService(new StubTvdbGateway(), new TvdbMapper()).GetShow(Id);
+                    return _show;
+                }
+            }
         }
 
         public static class Turn
@@ -32,6 +46,16 @@ namespace Specs.Library.MediaLogue.TestData
             public static string FullSeriesXml
             {
                 get { return ShowStubs.Single(x => x.Id == Id).FullSeriesXml; }
+            }
+
+            private static Show _show;
+            public static Show Show
+            {
+                get
+                {
+                    if(_show == null) _show = new TvdbService(new StubTvdbGateway(), new TvdbMapper()).GetShow(Id);
+                    return _show;
+                }
             }
         }
     }

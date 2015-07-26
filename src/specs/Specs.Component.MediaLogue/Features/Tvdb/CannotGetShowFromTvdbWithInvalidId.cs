@@ -14,7 +14,7 @@ namespace Specs.Component.MediaLogue.Features.Tvdb
 
         public void Given_an_invalid_TVDB_ID()
         {
-            _url = Const.Urls.Tvdb_GetShow(int.MaxValue);
+            _url = Const.Urls.Tvdb.Get(int.MaxValue);
         }
 
         public void When_I_request_the_Show_from_TVDB()

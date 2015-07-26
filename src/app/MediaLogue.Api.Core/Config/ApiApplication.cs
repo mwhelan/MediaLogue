@@ -3,6 +3,7 @@ using System.Reflection;
 using System.Web.Http;
 using Autofac;
 using Autofac.Integration.WebApi;
+using Newtonsoft.Json;
 
 namespace MediaLogue.Api.Core.Config
 {
@@ -20,6 +21,9 @@ namespace MediaLogue.Api.Core.Config
         {
             ConfigureRoutes();
             ConfigureDependencies(modifier);
+
+            // Resolves Json.Net self-referencing issue: https://bobbycannon.com/Post/JsonNetSelfReferencingLoopDetected
+            Configuration.Formatters.JsonFormatter.SerializerSettings.PreserveReferencesHandling = PreserveReferencesHandling.Objects;
         }
 
         private void ConfigureDependencies(Action<ContainerBuilder> modifier = null)

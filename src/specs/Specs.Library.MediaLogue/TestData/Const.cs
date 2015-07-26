@@ -4,9 +4,20 @@ namespace Specs.Library.MediaLogue.TestData
     {
         public static class Urls
         {
-            public static string Tvdb_GetShow(int id)
+            public static class Shows
             {
-                return string.Format("api/tvdb/{0}", id);
+                public static string Get(int id)
+                {
+                    return string.Format("api/shows/{0}", id);
+                }
+            }
+
+            public static class Tvdb
+            {
+                public static string Get(int id)
+                {
+                    return string.Format("api/tvdb/{0}", id);
+                }
             }
         }
     }

@@ -69,23 +69,24 @@ namespace MediaLogue.Infrastructure.Data.Tvdb
             var series = new Show()
             {
                 Id = id.Value,
+                Actors = seriesXml.ElementAsString("Actors").SplitByPipe(),
+                AirDay = seriesXml.ElementAsEnum<Frequency>("Airs_DayOfWeek"),
+                AirTime = seriesXml.ElementAsTimeSpan("Airs_Time"),
+                ContentRating = seriesXml.ElementAsString("ContentRating").ToContentRating(),
+                FirstAired = seriesXml.ElementAsDateTime("FirstAired"),
+                Genres = seriesXml.ElementAsString("Genre").SplitByPipe(),
                 ImdbId = seriesXml.ElementAsString("IMDB_ID"),
-                Title = seriesXml.ElementAsString("SeriesName", true),
                 Network = seriesXml.ElementAsString("Network"),
-                Description = seriesXml.ElementAsString("Overview", true),
+                Overview = seriesXml.ElementAsString("Overview", true),
                 Rating = seriesXml.ElementAsDouble("Rating"),
                 RatingCount = seriesXml.ElementAsInt("RatingCount"),
                 Runtime = seriesXml.ElementAsInt("Runtime"),
+                Title = seriesXml.ElementAsString("SeriesName", true),
+                Status = seriesXml.ElementAsEnum<Status>("Status"),
                 BannerRemotePath = seriesXml.ElementAsString("banner"),
                 FanartRemotePath = seriesXml.ElementAsString("fanart"),
                 LastUpdated = seriesXml.ElementFromEpochToDateTime("lastupdated"),
-                PosterRemotePath = seriesXml.ElementAsString("poster"),
-                FirstAired = seriesXml.ElementAsDateTime("FirstAired"),
-                AirTime = seriesXml.ElementAsTimeSpan("Airs_Time"),
-                AirDay = seriesXml.ElementAsEnum<Frequency>("Airs_DayOfWeek"),
-                Status = seriesXml.ElementAsEnum<Status>("Status"),
-                ContentRating = seriesXml.ElementAsString("ContentRating").ToContentRating(),
-                Genres = seriesXml.ElementAsString("Genre").SplitByPipe()
+                PosterPath = seriesXml.ElementAsString("poster"),
             };
 
             if (series.FirstAired.HasValue)

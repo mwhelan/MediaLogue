@@ -10,7 +10,12 @@ namespace Specs.Component.MediaLogue.Features.MetatdataManagement
         {
             Number = 2;
         }
-        public void Given_that_the_Show_does_not_exist_in_the_database() { throw new NotImplementedException();}
+
+        public void Given_that_the_Show_does_not_exist_in_the_database()
+        {
+            throw new NotImplementedException();
+            
+        }
         public void AndGiven_the_show_exists_in_TVDB() { throw new NotImplementedException(); }
         public void When_I_request_the_Show() { throw new NotImplementedException(); }
         public void Then_the_Show_is_returned() { throw new NotImplementedException(); }

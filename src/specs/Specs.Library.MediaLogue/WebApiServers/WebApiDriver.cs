@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Net.Http;
-using System.Threading;
-using System.Web.Http;
 using Specs.Library.MediaLogue.WebApi;
 
 namespace Specs.Library.MediaLogue.WebApiServers
@@ -11,6 +9,11 @@ namespace Specs.Library.MediaLogue.WebApiServers
         private readonly IApiServer _server;
         public Exception Exception { get; set; }
         public HttpResponseMessage Response { get; set; }
+
+        public T Data<T>()
+        {
+            return Response.Content.ReadAsAsync<T>().Result;
+        } 
 
         public WebApiDriver(IApiServer server)
         {

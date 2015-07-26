@@ -12,22 +12,22 @@ namespace Specs.Component.MediaLogue.Features.Tvdb
 {
     public class CanGetShowFromTvdbWithValidId : ScenarioFor<WebApiDriver,TvdbStory>
     {
-        private string _url;
+        private int _id;
 
         public void Given_a_valid_TVDB_ID()
         {
-            _url = Const.Urls.Tvdb_GetShow(ShowData.TheFieldOfBlood.Id);
+            _id = ShowData.TheFieldOfBlood.Id;
         }
 
         public void When_I_request_the_Show_from_TVDB()
         {
-            SUT.Execute(_url);
+            SUT.Execute(Const.Urls.Tvdb.Get(_id));
         }
 
         public void Then_should_return_Show()
         {
             var show = SUT.Response.Content.ReadAsAsync<Show>().Result;
-            show.Id.Should().Be(ShowData.TheFieldOfBlood.Id);
+            show.Id.Should().Be(_id);
         }
     }
 }

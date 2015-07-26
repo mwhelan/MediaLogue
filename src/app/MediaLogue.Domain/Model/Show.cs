@@ -21,7 +21,7 @@ namespace MediaLogue.Domain.Model
         /// <summary>
         /// A short overview of the show.
         /// </summary>
-        public string Description { get; set; }
+        public string Overview { get; set; }
 
         /// <summary>
         /// The date the show aired for the first time.
@@ -41,7 +41,7 @@ namespace MediaLogue.Domain.Model
         /// <summary>
         /// List of all actors in the show.
         /// </summary>
-        public IReadOnlyCollection<Actor> Actors { get; set; }
+        public IReadOnlyCollection<string> Actors { get; set; }
 
         /// <summary>
         /// Day of the week when the show airs.
@@ -94,9 +94,14 @@ namespace MediaLogue.Domain.Model
         public DateTime? LastUpdated { get; set; }
 
         /// <summary>
-        /// Let me know if you find out what this is.
+        /// Path to Poster.
         /// </summary>
-        public string PosterRemotePath { get; set; }
+        public string PosterPath { get; set; }
+
+        /// <summary>
+        /// Path to Poster.
+        /// </summary>
+        public string PosterThumbPath { get; set; }
 
         /// <summary>
         /// A list of all episodes associated with this show.
