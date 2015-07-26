@@ -14,10 +14,14 @@
             throw new NotImplementedException();
         }
 
-        public Task<string> GetShow(int showId)
+        public async Task<string> GetShow(int showId)
         {
             var show = TestData.ShowData.ShowStubs.FirstOrDefault(x => x.Id == showId);
-            return show == null ? null : Task.FromResult(show.FullSeriesXml);
+            if (show == null)
+            {
+                return null;
+            }
+            return await Task.FromResult(show.FullSeriesXml);
         }
 
         public Task<string> SearchShowsByTitle(string title, int maxResults = 5)

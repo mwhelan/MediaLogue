@@ -60,10 +60,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Data\MediaLogueContext.cs" />
-    <Compile Include="Data\Tvdb\BadResponseException.cs" />
     <Compile Include="Data\Tvdb\DateTimeExtensions.cs" />
     <Compile Include="Data\Tvdb\IWebClient.cs" />
-    <Compile Include="Data\Tvdb\ServerNotAvailableException.cs" />
     <Compile Include="Data\Tvdb\TvdbGateway.cs" />
     <Compile Include="Data\Tvdb\AsyncClient.cs" />
     <Compile Include="Data\Tvdb\TvdbMapper.cs" />

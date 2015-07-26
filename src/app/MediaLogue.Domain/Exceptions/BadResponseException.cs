@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Net;
 
-namespace MediaLogue.Infrastructure.Data.Tvdb
+namespace MediaLogue.Domain.Exceptions
 {
     public class BadResponseException : Exception
     {

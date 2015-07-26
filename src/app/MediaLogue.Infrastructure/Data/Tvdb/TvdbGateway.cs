@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Net;
 using System.Threading.Tasks;
 using MediaLogue.Domain.Contracts;
 
@@ -29,6 +30,10 @@ namespace MediaLogue.Infrastructure.Data.Tvdb
         {
             var url = string.Format("{0}/api/{1}/series/{2}/all/en.xml", BaseUrl, _apiKey, showId);
             var response = await _webClient.GetAsync(url);
+            if (response.StatusCode == HttpStatusCode.NotFound)
+            {
+                return null;
+            }
             return await response.Content.ReadAsStringAsync();
         }
 

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MediaLogue.Infrastructure.Data.Tvdb
+namespace MediaLogue.Domain.Exceptions
 {
     public class ServerNotAvailableException : Exception
     {
